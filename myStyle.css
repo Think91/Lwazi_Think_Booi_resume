@@ -1,0 +1,62 @@
+body {
+	background-color: azure; 
+}
+
+.img-circle {
+	float: right;
+	width: 350px;
+	height: auto;
+	display: block;
+	margin-top: 1rem;
+}
+
+
+
+h1 {
+	-webkit-filter : drop-shadow(5px 5px 1px brown);
+	filter: drop-shadow(20px 20px 3px grey);
+	text-align: center;
+	text-decoration: underline;
+	color: brown
+
+}
+
+h3 {
+	color: brown;
+	font-style: italic;
+	text-decoration: underline;
+	text-align: center;
+}
+h5 {
+	color: navy;
+}
+
+footer {
+	text-align: center;
+	font-style: italic;
+}
+
+header {
+	text-align: center;
+	font-style: italic;
+	}
+
+p { 
+	font-size: 17px;
+	font-family: Times New Roman;
+	margin :25px 0 0 0;
+	}
+.contain {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+}
